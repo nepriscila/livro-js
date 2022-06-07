@@ -1,0 +1,9 @@
+<meta charset = "UTF-8">
+<script>
+    const valor = Number(prompt("Valor: ")) //lê o valor do produto
+    const comDesconto = valor * 0.10 //calcula o valor com desconto
+    const totalAvista = valor - comDesconto //calcula o valor a vista com desconto
+    const Parcelado = Number(prompt("Número de Parcelas: ")) //lê o número de parcelas
+    const valorParcelado = valor / Parcelado //calcula o valor de cada parcela
+    alert(`Valor á vista R$: ${totalAvista.toFixed(2)}\nParcelado R$: ${valorParcelado.toFixed(2)}`)
+    </script>
